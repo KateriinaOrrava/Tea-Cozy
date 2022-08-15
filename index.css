@@ -1,0 +1,75 @@
+html {
+background-color: black;
+font-family:helvetica;
+font-size:22px;
+opacity:0.9;
+justify-content: center;
+color:seashell;
+
+}
+
+.main {
+    display: inline-flex;
+    align-content: center;
+}
+
+header {
+    height: 69px;
+    background-color: black;
+}
+.header-logo {
+    padding-left: 10px;
+    float:left;
+}
+
+.navigation {
+    display: flex; 
+    float:right;
+}
+
+.header-option {
+    text-decoration: underline;
+   padding-right: 30px;
+}
+
+.our-mission {
+    display: inline-flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.main {
+    width: 1200px;
+        margin: 0 auto;
+}
+.our-mission h2, h4 {
+    margin: 3px ;
+    
+}
+.our-mission-text {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+ .test {
+    color:red;
+    background-image: url('images/img-spiced-rum.jpg');
+    height:300px;
+    width: 1200px;
+  
+        border: 1px solid #2d2d2d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
